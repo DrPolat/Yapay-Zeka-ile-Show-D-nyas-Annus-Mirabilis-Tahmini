@@ -25,7 +25,7 @@ st.markdown("""
 - **τ (Latent years)**: Kariyerinde iş yapmadığı senelerin toplam sayısı.
 - **L (Career Length)**: İlk yaptığı iş ile son yaptığı iş arasındaki geçen yıl sayısı.
 - **Am=m (Max Value)**: Kariyerinde bir senede yaptığı en yüksek iş sayısı. Yani oyuncunun en iyi yılı.
-- **startYear**: Oyuncunun kariyerine başladığı ilk yıl.
+- **startYear**: Oyuncunun kariyerine başladığı ilk tarih (örn: 2013).
 """)
 # Kullanıcıdan veri girişi almak için giriş alanları oluştur
 def get_user_input():
